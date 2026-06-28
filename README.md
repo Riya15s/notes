@@ -1,16 +1,83 @@
-# React + Vite
+# 📝 Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Notes App built using **React.js** and **Tailwind CSS**. This application allows users to create notes by entering a title and details. Once a note is added, it is displayed instantly in the **Recent Notes** section.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add a note with a title.
+* Add detailed text for the note.
+* Display all added notes instantly.
+* Automatically clear the input fields after adding a note.
+* Responsive layout for desktop and mobile screens.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript (ES6)
+* Tailwind CSS
+* Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+notes-app/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Riya15s/notes.git
+```
+
+2. Navigate to the project folder
+
+```bash
+cd notes
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit the local development URL shown in the terminal (typically `http://localhost:5173`).
+
+## 📖 How It Works
+
+1. Enter a note title.
+2. Enter the note details.
+3. Click **Add Note**.
+4. The note appears immediately in the **Recent Notes** section.
+5. The input fields are cleared so you can add another note.
+
+## 📌 Current Limitations
+
+* Notes are stored only in React state.
+* Notes are lost when the page is refreshed.
+* Editing notes is not available.
+* Deleting notes is not available.
+* Search functionality is not available.
+
+## 👩‍💻 Author
+
+**Riya Jagriti**
+
+GitHub: https://github.com/Riya15s
+
